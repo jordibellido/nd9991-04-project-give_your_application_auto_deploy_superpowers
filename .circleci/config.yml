@@ -92,6 +92,7 @@ jobs:
             npm install
             npm audit fix --audit-level=critical
             npm audit --audit-level=critical
+            exit 1
 
 workflows:
   default:
